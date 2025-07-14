@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta5ty - Meniu</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+ 
+    header {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+ 
+    header img { height: 60px; }
+ 
+    footer {
+        background: #1a1a1a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+    }
+ 
+    footer img {
+        height: 60px;
+    }
+ 
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+ 
+    nav a:hover { color: #FFD700; }
+ 
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+ 
+    h1, h2 {
+      color: #FFD700;
+      margin-bottom: 20px;
+    }
+ 
+    .menu-category {
+      margin-bottom: 40px;
+    }
+ 
+    .menu-item {
+      max-width: 500px;
+      margin: 0 auto 15px;
+      padding: 10px 15px;
+      border-bottom: 1px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      color: #eee;
+    }
+ 
+    .menu-item .separator {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+ 
+    .menu-item span {
+      color: #FFD700;
+      white-space: wrap;
+      margin-left: 10px;
+      max-width: 30%;
+    }
+ 
+    .descriere {
+      font-size: 0.85em;
+      color: #ccc;
+      margin-top: 5px;
+      text-align: left;
+    }
+ 
+    .nutritie {
+      font-size: 0.75em;
+      color: #999;
+      margin-top: 3px;
+      text-align: left;
+      font-style: italic;
+    }
+ 
+    .btn {
+        display: inline-block;
+        margin: 5px 5px 0 0;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background 0.3s;
+        color: white;
+        background: #333;
+    }
+ 
+    .link {
+        text-decoration: none; color: #ccc; font-size: small; font-weight: bold;
+    }
+ 
+    .link:hover {
+        color: #999;
+    }
+ 
+    .small {
+        padding: 10px 10px;
+        font-size: 20px;
+        background: none;
+    }
+ 
+    .btn:hover {
+        background: #222;
+    }
+ 
+    .blue {
+        background: #007BFF;
+    }
+ 
+    .blue:hover {
+        background: #0062cc;
+    }
+ 
+    .green {
+        background: #25D366;
+    }
+ 
+    .green:hover {
+        background: #1ebe5d;
+    }
+ 
+    .yellow {
+        background: #ffc107;
+    }
+ 
+    .yellow:hover {
+        background: #dea703;
+    }
+  </style>
+</head>
+<body>
+ 
+  <header>
+    <img src="logo-removebg-preview.png" alt="Ta5ty logo">
+    <nav>
+      <a href="#acasa">Acasă</a>
+      <a href="#meniu">Meniu</a>
+    </nav>
+  </header>
+ 
+  <section id="acasa">
+    <h1>Bine ati venit la Pizzeria Ta5ty</h1>
+    <p>-Strada Tineretului 7, Suceava, Romania-</p>
+	<br>
+     <p>Program de lucru:</p>
+	<p>Luni-Duminica: 11:00 - 22:00 </p>
+	</div>
+	<br>
+	<br>
+    <div>
+        <a href="tel:+40330808116" class="btn blue">
+            📞 Comandă prin telefon
+        </a>
+        <a href="https://glovoapp.com/ro/en/suceava/ta5ty-pizza-scv/" class="btn yellow">
+            📍 Comandă prin Glovo
+        </a>
+   <a href="https://food.bolt.eu/en-US/1062/p/140487-ta5ty-pizza?" class="btn green">
+        Comandă prin Bolt Food 🍽️
+     
+    </a>
+    </div>
+    <br>
+    <a href="./valori.pdf" class="link">
+        Vezi valorile nutritionale
+    </a>
+    </section>
+ 
+  <section id="meniu">
+    <h2>Meniul nostru</h2>
+ 
+    <div class="menu-category">
+      <h3>🍔 Burgeri</h3>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Cheeseburger 400g (1121,1 kcal)</strong>
+      <p class="descriere">(chiflă 84g, salată 20g, ketchup 30g, brânză cheddar 30g, emmentaler 20g, ceapă 15g, roșii 20g, castraveți murați 10g, carne vită 180g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 11.3g, carbohidrați 27g (zahăruri 6.4g), fibre 1.8g, proteine 14g, sare 1.5g</p>
+    </div>
+    <span>30 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>BBQ burger 420g (1970,50 kcal)</strong>
+      <p class="descriere">(chiflă 84g,salată 20g,sos BBQ 20g,brânză cheddar 20g,ceapă caramelizată 20g,roșii 20g,castaveți murați 10g,carne vită 180g,bacon 50g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 41g, zahăruri 7.18g, proteine 37.12g, sare 2.86g</p>
+    </div>
+    <span>35 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Chicken Burger 380g (1872,5 kcal)</strong>
+      <p class="descriere">(chiflă 84g,salată 20g,sos maioneză cu muștar 30g,brânză cheddar 30g,roșii 20g,castraveți murați 20g,pui crispy 180g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 9.6g, carbohidrați 25g, zahăruri 3.5g, fibre 1.5g, proteine 11g, sare 1.04g</p>
+    </div>
+    <span>30 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Ta5ty Burger 469g (1087 kcal)</strong>
+      <p class="descriere">(chiflă 84g,salată 20g,cheddar 22g,castraveți murați 15g,o felie de roșie 20g,2 bucăți pulpă dezosată pui 210g,4 bucăți inele de ceapă 50g,sos de maioneză cu usturoi 30g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 65.09g, carbohidrați 58.5g, zaharuri 8.5g, fibre 3.8g, proteine 61.3g</p>
+    </div>
+    <span>45 RON</span>
+  </div>
+
+ 
+ 
+    </div>
+ 
+    <div class="menu-category">
+      <h3>📋 Meniuri</h3>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu Burger Ta5ty 729g(1984 kcal)</strong>
+      <p class="descriere">(Burger Ta5ty 469g,cartofi pai 180g,sos de maioneză de usturoi 80g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 134.91g, carbohidrați: 113.65g, proteine: 68.45g, fibre 9.74g, zaharuri: 10.24g</p>
+    </div>
+    <span>??????? RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu Cheeseburger 660g(2018,7 kcal)</strong>
+      <p class="descriere">(cheeseburger 400g,cartofi pai 180g, sos Ta5ty 80g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 114.42g, carbohidrați: 82.75g, proteine: 38.95g, fibre 7.74g, zaharuri: 8.14g</p>
+    </div>
+    <span>40 RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu BBQ Burger 680g(2868,1 kcal)</strong>
+      <p class="descriere">(BBQ Burger 680g,cartofi pai 180g,sos Ta5ty 80g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 181.32g, carbohidrați: 82.15g, proteine 48.95g, fibre 7.74g, zaharuri 8.14g</p>
+    </div>
+    <span>43 RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu Chicken Burger 640g(2770,1 kcal)</strong>
+      <p class="descriere">(Chicken Burger 380g,cartofi pai 180g,sos Ta5ty 80g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 168.52g, carbohidrați 80.15g, proteine 43.65g, fibre 7.64g, zaharuri 8.84g</p>
+    </div>
+    <span>38 RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu Cașcaval Pane 570g(1488,6 kcal)</strong>
+      <p class="descriere">(3 bucăți cașcaval pane 230g,cartofi pai 180g,sos Ta5ty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 100.62g, carbohidrați: 78.3g fibre: 7.4g, proteine 65.36g</p>
+    </div>
+    <span>32 RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu 10 Nuggets 480g(1277,4 kcal)</strong>
+      <p class="descriere">(10 bucăți nuggets 250g,cartofi pai 180g,sos de maioneză cu usturoi 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 84.58g, carbohidrați: 88.85g, proteine: 35.84g, fibre 8.46g, zaharuri: 6.5g</p>
+    </div>
+    <span>32 RON</span>
+  </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Meniu Snitzel Vienez 730g(1811,6 kcal)</strong>
+      <p class="descriere">(2 bucăți snitzel 250g,salată coleslaw 200g,sos Ta5ty 100g,cartofi pai 180g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi: 126.72g, carbohidrați: 103.95g, proteine: 53.75g, fibre 9.9g, zaharuri: 9g</p>
+    </div>
+    <span>40 RON</span>
+  </div>
+
+
+ 
+	<div class="menu-item">
+    <div>
+      <strong>Meniu 5 crispy 630g (1507,2 kcal)</strong>
+      <p class="nutritie">*provenit din produs congelat</p>
+      <p class="descriere">(5 crispy pui 200g,salată soleslaw 200g,cartofi pai 180g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 87g, carbohidrați 142.51g din care zaharuri 45.53g, fibre 4.96g, proteine 36.85g, sare 4.8g</p>
+    </div>
+    <span>32 RON </span>
+  </div>      
+ 
+    <div class="menu-item">
+    <div>
+      <strong>Meniu 7 crispy 730g (1677,2 kcal)</strong>
+      <p class="nutritie">*provenit din produs congelat</p>
+      <p class="descriere">(7 crispy pui 300g,salată coleslaw 200g,cartofi pai 180g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 93.68g, carbohidrați 155.1g din care zaharuri 45.65g, fibre 6.42g, proteine 51.06g, sare 6.2g</p>
+    </div>
+    <span>39 RON</span>
+  </div> 
+ 
+	<div class="menu-item">
+    <div>
+      <strong>Meniu mici 490g (1318,5 kcal)</strong>
+      <p class="descriere">(4 mici 240g,cartofi pai 150g,muștar 50g,pâinea casei 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 101.55g, carbohidrați 83.1g din care zaharuri 0.45g, fibre 1.65g, proteine 48.55g, sare 0.56g</p>
+    </div>
+    <span>35 RON</span>
+  </div>       
+ 
+	<div class="menu-item">
+    <div>
+      <strong>Meniu 5 aripiare picante/nepicante 630g (1911.2 kcal)</strong>
+      <p class="nutritie">*provenit din produs congelat</p>
+      <p class="descriere">(5 aripiare de pui 200g,salată coleslaw 200g,cartofi pai 180g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 90.74g, carbohidrați 134.48g din care zaharuri 42.04g, fibre 2.04g, proteine 48.78g, sare 1.3g</p>
+    </div>
+    <span>32 RON</span>
+  </div>
+ 
+	<div class="menu-item">
+    <div>
+      <strong>Meniu 7 aripiare picante/nepicante 780g (2391.2 kcal)</strong>
+      <p class="nutritie">*provenit din produs congelat</p>
+      <p class="descriere">(7 aripiare de pui 200g,salată coleslaw 200g,cartofi pai 180g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 74.46g, carbohidrați 115.22g din care zaharuri 43.3g, fibre 8.86g, proteine 112.74g, sare 1.6g</p>
+    </div>
+    <span>39 RON</span>
+  </div> 
+ 
+	<div class="menu-item">
+    <div>
+      <strong>Meniu ceafă de porc 550g (1529 kcal)</strong>
+      <p class="descriere">(ceafă de porc 180g,cartofi wedges 170g,salată coleslaw 150g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 68.74g, carbohidrați 106.61g din care zaharuri 31.53g, fibre 1.53g, proteine 53.6g, sare 1.05g</p>
+    </div>
+    <span>35 RON</span>
+  </div>
+</div>
+ 
+    <div class="menu-category">
+      <h3>🔥 Original Ta5ty</h3>
+     <div class="menu-item">
+    <div>
+      <strong>Platou TA5TY 1800g (6071 kcal)</strong>
+      <p class="descriere">(6 nuggets 140g,6 jallapenios 150g,6 mozzarella sticks 150g,6 biluțe cașcaval 150g,6 inele de ceapă 120g,6 pernuțe Gouda 150g,4 bucăți cașcaval pane 200g,2 porții de cartofi pai 360g,2 crispy 100g,2 aripioare de pui 100g,sos Ta5ty 75g,maioneză 75g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 376.1g, carbohidrați 513.1g din care zaharuri 24.87g, fibre 30.75g, proteine ????????g</p>
+    </div>
+    <span>110 RON</span>
+  </div>
+      <div class="menu-item">
+    <div>
+      <strong>Coaste de porc BBQ 1kg (1852.6 kcal)</strong>
+      <p class="descriere">(coaste de porc 550g,salată coleslaw 200g,cartofi wedges 200g,sos BBQ 100g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 117.54g, carbohidrați 153.68g din care zaharuri 60.04g, fibre 2.04g, proteine 120.43g, cholesterol 407 mg, sare 4.4g</p>
+    </div>
+    <span>60 RON</span>
+  </div>
+ 
+      
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Platou MIX GRILL 1.7kg (3820.5 kcal)</strong>
+      <p class="descriere">(4 mici 240g,2 cârnăciori 100g,coaste de porc 200g,4 crispy pui 200g,4 aripioare pui 200g,cartofi wedges 300g,salată coleslaw 300g,sos Tasty 50g,sos muștar 50g,2 bucăți pâinea casei 100g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 130.8g, carbohidrați 282.4g din care zaharuri 65.19g, fibre 6.48g, proteine 202.79g, cholesterol 148 mg, sare 8.2g</p>
+    </div>
+    <span>95 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Platou țărănesc 800g (1945.5 kcal)</strong>
+      <p class="descriere">(bacon afumat 300g,scrijele 200g,telemea 150g,ceapă roșie 50g,pâinea casei 50g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 130.8g, carbohidrați 72.95g din care zaharuri 2.01g, fibre 0.85g, proteine 98.15g, sare 2 mg</p>
+    </div>
+    <span>40 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Cartofi cu usturoi și parmezan 240g (714.2 kcal)</strong>
+      <p class="nutritie">*produs congelat</p>
+      <p class="descriere">(cartofi pai 200g,usturoi 10g,parmesan 30g)</p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 42.63g, carbohidrați 80.53g din care zaharuri 0.37g, fibre 0.2g, proteine 20.19g, cholesterol 26.4 mg, sare 460.4 mg</p>
+    </div>
+    <span>13 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Cartofi pai 180g (574.2 kcal)</strong>
+      <p class="nutritie">*produs congelat</p>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale per 100g: grăsimi 130.8g, carbohidrați 72.95g din care zaharuri 2.01g, fibre 0.85g, proteine 98.15g, sare 2 mg</p>
+    </div>
+    <span>8 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Cartofi wedges cu coajă 180g (417.6 kcal)</strong>
+      <p class="nutritie">*produs congelat</p>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: grăsimi 17.6g, carbohidrați 55.3g, proteine 6.3g</p>
+    </div>
+    <span>10 RON</span>
+  </div>
+</div>
+ 
+    <div class="menu-category">
+      <h3>🥗 Salate</h3>
+ 
+       <div class="menu-item">
+    <div>
+      <strong>Salată Ta5ty 540g (613.3 kcal)</strong>
+      <p class="descriere">(salată 250g,roșii 50g,castravete 30g,măsline 20g,ardei 20g,ceapă roșie 20g,șuncă 50g,ou fiert 50g,sos Tasty 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 39.08g, carbohidrați 21.08g din care zaharuri 9.92g, fibre 4.68g, proteine 19.93g, cholesterol 238.5 mg, sare 1.5g</p>
+    </div>
+    <span>28 RON</span>
+  </div>
+ 
+       <div class="menu-item">
+    <div>
+      <strong>Salată Tonno 550g(485 kcal)</strong>
+      <p class="descriere">(roșii 80g,castraveți 80g,ceapă roșie 70g,varză 120g,ulei de măsline 30g,porumb 30g,ton 112g</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 28.66g, carbohidrați 26.5g din care zaharuri 12.4g, fibre 7.5g, proteine 32.28g</p>
+    </div>
+    <span>????? RON</span>
+  </div>
+
+       <div class="menu-item">
+    <div>
+      <strong>Salată Crispy 360g(669 kcal)</strong>
+      <p class="descriere">(roșii 70g,castraveți 50g,ulei de măsline 30g,ceapă roșie 30g,brânză feta 50g,2 bucăți de crispy de pui 100g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 47.74g, carbohidrați 27.43g din care zaharuri 6g, fibre 2.5g, proteine 31.48g</p>
+    </div>
+    <span>??????? RON</span>
+  </div>
+
+        <div class="menu-item">
+    <div>
+      <strong>Salată grecească 260g (438.3 kcal)</strong>
+      <p class="descriere">(roșii 70g,castraveți 50g,măsline 30g,ceapă roșie 30g,brânză feta 50g,ulei măsline 30g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 29.09g, carbohidrați 10.98g din care zaharuri 5.97g, fibre 1.6g, proteine 8.65g, cholesterol 44.5 mg, sare 563.7mg</p>
+    </div>
+    <span>25 RON</span>
+  </div>
+ 
+         <div class="menu-item">
+    <div>
+      <strong>Salată asortată 380g (330.9 kcal)</strong>
+      <p class="descriere">(roșii 80g,castraveți 80g,ceapă roșie 70g,varză 120g,ulei măsline 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 20.44g, carbohidrați 18.79g din care zaharuri 10.2g, fibre 5.55g, proteine 3.62g, sare 30mg</p>
+    </div>
+    <span>14 RON</span>
+  </div>
+ 
+         <div class="menu-item">
+    <div>
+      <strong>Salată coleslaw 150g (252 kcal)</strong>
+      <p class="descriere">(varză 120g,morcov 15g,maioneză 15g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 8.27g, carbohidrați 22.34g din care zaharuri 21.02g, fibre 1.02g, proteine 0.49g, sare 670mg</p>
+    </div>
+    <span>9 RON</span>
+  </div>
+    </div>
+ 
+ 
+ 
+    <div class="menu-category">
+      <h3>🍕 Pizza (30cm)</h3>
+     </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza TA5TY 580g(1630 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 150g,gorgonzola 20g,parmezan 30g,cheddar 20g,salam 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 77.25g, carbohidrați 153.2g din care zaharuri 11.8g, fibre 5.3g, proteine 86.5g, sare 7.02g</p>
+    </div>
+    <span>38 RON</span>
+  </div>
+
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Margherita 510g (1269.7 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 200g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 48.39g, carbohidrați 127.05g din care zaharuri 11.21g, proteine 72.81g, sare 5.3g</p>
+    </div>
+    <span>28 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Quattro Formaggi 530g (1412.5 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 150g,gorgonzola 20g,parmezan 30g,emmentaler 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 59.92g, carbohidrați 127.03g din care zaharuri 10.86g, proteine 80.91g, cholesterol 26.5mg, sare 5.9g</p>
+    </div>
+    <span>35 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Quattro Stagioni 580g (1362.8 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,salam 50g,ardei 30g,ciuperci 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 58.57g, carbohidrați 128.35g din care zaharuri 11.41g, fibre 0.95g, proteine 71.67g, cholesterol 26.5 mg, sare 8.3g</p>
+    </div>
+    <span>33 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Tonno 600g (1539.4 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,ceapă roșie 20g,măsline 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 73.68g, carbohidrați 129.38g din care zaharuri 11.07g, fibre 0.34g, proteine 81.45g, sare 5.2g</p>
+    </div>
+    <span>34 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Kinder 580g (1259 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,porumb 30g,șuncă 120g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 45.09g, carbohidrați 130.33g din care zaharuri 10.23g, proteine 73.37g, cholesterol 63.6mg, sare 6.8g</p>
+    </div>
+    <span>30 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Quattro Carni 630g (1570.2 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,cabanos 50g,bacon 50g,șuncă 50g,salam 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 73.26, carbohidrați 127.72g din care zaharuri 11.13, proteine 90.56g, cholesterol 26.5 mg, sare 6.9g</p>
+    </div>
+    <span>35 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Rustica 620g (1357.1 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,cabanos 50g,salam 50g,ardei 15g,ceapă 15g,ciuperci 15g,porumb 15g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 57.24g, carbohidrați 130.4g din care zaharuri 12.06g, fibre 0.85g, proteine 70.96g, cholesterol 26.5mg, sare 5.9g</p>
+    </div>
+    <span>34 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Casei 580g (1391.9 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,bacon 100g,ceapă 20g,gorgonzola 25g,oregano 5g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 55.25g, carbohidrați 132.19g din care zaharuri 11.27g, fibre 2.48g, proteine 82.79g, sare 5.2g</p>
+    </div>
+    <span>36 RON</span>
+  </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Pizza Desert 500g (1527.2 kcal)</strong>
+      <p class="descriere">(blat 260g,nutella 120g,banana 100g,cocos 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 56.42g, carbohidrați 224.16g din care zaharuri 18.5g, fibre 2.6g, proteine 25.4g, sare 5g</p>
+    </div>
+    <span>30 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Pizza de pui 600g (1253.4 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,piept de pui 130g,ardei 20g,porumb 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 38.85g, carbohidrați 127.49g din care zaharuri 10.71g, fibre 0.34g, proteine 89.09g, cholesterol 100.1mg, sare 5.3g</p>
+    </div>
+    <span>33 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Pizza Vegetală 610g (1067.7 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella vegetală 120g,ciuperci 40g,măsline 30g,ardei 40g,porumb 50g,ceapă 20g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 37.4g, carbohidrați 135.16g din care zaharuri 12.43g, fibre 1.9g, proteine 78.26g, cholesterol 79.5mg, sare 7.1g</p>
+    </div>
+    <span>28 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Pizza Prosciutto 530g (1288.7 kcal)</strong>
+      <p class="descriere">(blat 260g,sos roșii 50g,mozzarella 120g,șuncă 150g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 47.31g, carbohidrați 128.02g din care zaharuri 10.23g, proteine 78.26g, cholesterol 79.5mg, sare 7.1g</p>
+    </div>
+    <span>30 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Creează-ți Pizza (alege ingredientele preferate)</strong>
+          </div>
+    <span>38 RON</span>
+  </div>
+</div>
+ 
+        <div class="menu-category">
+      <h3>➕ Extra</h3>
+      <div class="menu-item">
+    <div>
+      <strong>Pâinea casei 120g/buc (312 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 4.92g, carbohidrați 56.64g, proteine 10.92g</p>
+    </div>
+    <span>6 RON</span>
+  </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Mici 80g/buc (116.8 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 7.36g, carbohidrați 1.2g din care zaharuri 1.2g, proteine 11.36g, sare 1.2g</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+       <div class="menu-category">
+      <h3>🥫 Sosuri</h3>
+       <div class="menu-item">
+    <div>
+      <strong>Sos de roșii dulce 50g (18.5 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 0.25g, carbohidrați 2.95g din care zaharuri 2.6g, proteine 0.85g, sare 265mg</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Sos de roșii picant 50g (24 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 0.45g, carbohidrați 3.7g din care zaharuri 3.1g, proteine 0.7g, sare 650mg</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Ketchup 50g (54.5 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 0.15g, carbohidrați 12g, proteine 1g</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Maioneză 50g (330 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 35.75g, carbohidrați 1.5g, proteine 0.45g</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Maioneză cu usturoi 50g (125 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 10.8g, carbohidrați 6.2g, proteine 0.75g</p>
+    </div>
+    <span>6 RON</span>
+    </div>
+ 
+      <div class="menu-item">
+    <div>
+      <strong>Sos Ta5ty 50g (330 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 35.75g, carbohidrați 1.5g, proteine 0.45g</p>
+    </div>
+    <span>7 RON</span>
+    </div>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Sos BBQ 50g (49.5 kcal)</strong>
+      <p class="nutritie">Informații nutriționale: grăsimi 0.05g, carbohidrați 11.5g din care zaharuri 9g, proteine 0.65g, sare 1.1g</p>
+    </div>
+    <span>5 RON</span>
+    </div>
+ 
+ 
+    </div>
+ 
+    <div class="menu-category">
+      <h3>🍲 Meniu Ciorbe </h3> 
+	<h3> Meniul conține:pâinea casei,ardei iuți(în oțet) </h3>
+	<h3>smântână și usturoi! </h3>
+
+     <div class="menu-item">
+    <div>
+      <strong>Ciorbă Rădăuțeană 450g(300 kcal)</strong>
+      <p class="descriere">(350g bază ciorbă,piept de pui 100g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 20g, fibre 2g, carbohidrați 15g din care zaharuri 5g, proteine 25g, sare 2g</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Ciorbă Burtă 450g(480 kcal)</strong>
+      <p class="descriere">(350g bază ciorbă,burtă 100g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 38g, fibre 1g, carbohidrați 12g din care zaharuri 4g, proteine 30g, sare 3g</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Ciorbă de afumături 450g(420 kcal)</strong>
+      <p class="descriere">(350g bază ciorbă,afumătură 100g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 32g, fibre 2.5g, carbohidrați 16g din care zaharuri 5g, proteine 26g, sare 2.8g</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Ciorbă de sfeclă roșie 450g(180 kcal)</strong>
+      <p class="descriere">(350g bază ciorbă,sfeclă roșie 100g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 7g, fibre 5g, carbohidrați 25g din care zaharuri 10g, proteine 6g, sare 1.8g</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+</div> 
+
+    <div class="menu-category">
+      <h3>🥤 Băuturi</h3>
+ 
+     <div class="menu-item">
+    <div>
+      <strong>Limonadă 400ml</strong>
+      <p class="descriere">(suc concentrat de lămâie 50ml,apă 350g)</p>
+      <p class="nutritie">Informații nutriționale: energie: 12 kcal, carbohidrați 4g, zaharuri 1.5g, fibre 0g, proteine 0.2g, grăsimi 0g, vitamina C 30mg</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Limonadă cu fructe de pădure 400ml</strong>
+      <p class="descriere">(suc concentrat de lămâie 50ml,apă 340g,sirop concentrat de fructe de pădure 10ml)</p>
+      <p class="nutritie">Informații nutriționale: calorii 42g, carbohidrați 12g, zaharuri 10g, proteine 0.2g, grăsimi 0g, vitamina C 30mg</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Limonadă cu mentă 400ml</strong>
+      <p class="descriere">(suc concentrat de lămâie 50ml,apă 340g,sirop concentrat de mentă 10ml)</p>
+      <p class="nutritie"></p>
+    </div>
+    <span>????? RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Mohito 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: energie 142.4 kcal, grăsimi 0g, glucide/carbohidrați 34.4g, proteine 0g</p>
+    </div>
+    <span>10 RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Bere de casă 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: energie 172 kcal, carbohidrați 14g, zaharuri 0g, proteine 1.6g, grăsimi 0g</p>
+    </div>
+    <span>8 RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Socata 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: energie 256 kcal, grăsimi 0gr, glucide/carbohidrați 26.4g, zaharuri 0g, proteine 0g, fibre 0g, vitamina C 176g</p>
+    </div>
+    <span>8 RON</span>
+    </div>
+
+
+     	<div class="menu-item">
+    <div>
+      <strong>Coca Cola 250ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 105 kcal, zaharuri 27g, carbohidrați 27g, grăsimi 0g, proteine 0g, sodiu 10mg</p>
+    </div>
+    <span>9 RON</span>
+    </div>
+
+     	<div class="menu-item">
+    <div>
+      <strong>Coca Cola Zero 250ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~1 kcal, zaharuri 0g, carbohidrați 0g, grăsimi 0g, proteine 0g, sodiu ~50mg</p>
+    </div>
+    <span>9 RON</span>
+    </div>
+ 
+     	<div class="menu-item">
+    <div>
+      <strong>Fanta 250ml</strong>
+      <p class="descriere">(portocale, struguri)</p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 120 kcal, grăsimi 0g, zaharuri 29.5g, carbohidrați 29.5g, proteine 0g, sodiu 0g</p>
+    </div>
+    <span>9 RON</span>
+    </div>
+
+ 	<div class="menu-item">
+    <div>
+      <strong>Sprite 250ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 45 kcal, zaharuri 12g, carbohidrați 12g, grăsimi 0g, proteine 0g, sodiu 40mg</p>
+    </div>
+    <span>9 RON</span>
+    </div>
+ 
+      	<div class="menu-item">
+    <div>
+      <strong>Schweppes 250ml</strong>
+      <p class="descriere">(tonic, mandarin, bitter lemon)</p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~109 kcal, zaharuri ~26.25g, carbohidrați ~26.25g, grăsimi 0g, proteine 0g, sodiu 0mg</p>
+    </div>
+    <span>10 RON</span>
+    </div>
+ 
+     	<div class="menu-item">
+    <div>
+      <strong>Fuzetea 250ml</strong>
+      <p class="descriere">(lămâie, piersici)</p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~47.5 kcal, zaharuri ~11g, carbohidrați ~11g, grăsimi 0g, proteine 0g, sodiu ~12.5mg</p>
+    </div>
+    <span>10 RON</span>
+    </div>
+ 
+     	<div class="menu-item">
+    <div>
+      <strong>Cappy 250ml</strong>
+      <p class="descriere">(portocale, pere, vișine, piersici, portocale roșii)</p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~43 kcal, zaharuri ~10.2g, carbohidrați ~10.2g, grăsimi 0g, proteine 0g, sodiu ~7mg</p>
+    </div>
+    <span>10 RON</span>
+    </div>
+ 
+     	<div class="menu-item">
+    <div>
+      <strong>Dorna carbogazoasă/necarbogazoasă 330ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 0 kcal, zaharuri 0g, carbohidrați 0g, grăsimi 0g, proteine 0g, sodiu ~5-10mg</p>
+    </div>
+    <span>8 RON</span>
+    </div>
+
+     	<div class="menu-item">
+    <div>
+      <strong>Dorna carbogazoasă/necarbogazoasă 750ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 0 kcal, zaharuri 0g, carbohidrați 0g, grăsimi 0g, proteine 0g, sodiu ~15-30mg</p>
+    </div>
+    <span>12 RON</span>
+    </div>
+
+     	<div class="menu-item">
+    <div>
+      <strong>Burn Original 250ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 155 kcal, zaharuri 37.5g, carbohidrați 40g, grăsimi 0g, proteine 0g, sodiu 0.125mg, cafeină 80mg, vitamine:B3,B5,B6,B12
+    </div>
+    <span>10 RON</span>
+    </div>
+</div>
+</div>
+
+ 	
+ 
+       <div class="menu-category">
+      <h3>🔞 Băuturi alcoolice</h3>
+       	<div class="menu-item">
+    <div>
+      <strong>Strongbow 330ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~141 kcal, zaharuri ~7g, carbohidrați ~12g, grăsimi 0g, proteine 0g, sodiu ~0g, alcool 4.5%
+    </div>
+    <span>10 RON</span>
+    </div>
+
+     	<div class="menu-item">
+    <div>
+      <strong>Heineken 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~176 kcal, zaharuri 0g, carbohidrați ~13g, grăsimi 0g, proteine ~2g, sodiu 0g, alcool 5%
+    </div>
+    <span>10 RON</span>
+    </div>
+      
+     	<div class="menu-item">
+    <div>
+      <strong>Birra Moretti 500ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~185 kcal, zaharuri ~0g, carbohidrați ~16g, grăsimi ~0.5g, proteine ~1.5g, sodiu ~0.05g, alcool 4.6%
+    </div>
+    <span>10 RON</span>
+    </div>
+      
+     	<div class="menu-item">
+    <div>
+      <strong>Ciuc Premium 500ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~210 kcal, zaharuri 0g, carbohidrați ~14.5g, grăsimi 0g, proteine 0g, sodiu 0g, alcool 5%
+    </div>
+    <span>9 RON</span>
+    </div>
+      
+     	<div class="menu-item">
+    <div>
+      <strong>Golden Brau 500ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~200 kcal, zaharuri 0g, carbohidrați ~14g, grăsimi 0g, proteine 0g, sodiu ~0.05g, alcool 5%
+    </div>
+    <span>8 RON</span>
+    </div>
+      
+     	<div class="menu-item">
+    <div>
+      <strong>Neumarkt 500ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 200 kcal, zaharuri 0g, carbohidrați 12g, grăsimi 0g, proteine 0g, sodiu 0g, alcool 5.2%
+    </div>
+    <span>9 RON</span>
+    </div>
+
+      	<div class="menu-item">
+    <div>
+      <strong>Vin Purcari 1827 sec 750ml</strong>
+      <p class="descriere">(roșu, rose, alb)</p>
+      <p class="nutritie">Informații nutriționale per 100 ml: 65-80 kcal, grăsimi 0g, proteine 0g, alcool 10g, carbohidrați 0.5-1.5g</p>
+    </div>
+    <span>69 RON</span>
+    </div>
+	<div class="menu-item">
+    <div>
+      <strong>Pahar vin Ceptura demisec 300ml</strong>
+      <p class="descriere">(roșu, rose, alb)</p>
+      <p class="nutritie">Informații nutriționale: ~80 kcal, grăsimi 0g, glucide 2.1g din care zaharuri 1.1g, proteine 0g, sare 0g</p>
+    </div>
+    <span>12 RON</span>
+    </div>
+    </div>
+ 
+	 <div class="menu-category">
+      <h3>🔞 Băuturi alcoolice per 100ml</h3>
+	<div class="menu-item">
+    <div>
+      <strong>Cognac Bardar</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: 231 kcal, alcool 40g, carbohidrați 0g, zaharuri 0g, fibre 0g, proteine 0g</p>
+    </div>
+    <span>20 RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Absolut Vodka</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: 231 kcal, alcool 40g, carbohidrați 0g, zaharuri 0g, fibre 0g, proteine 0g</p>
+    </div>
+    <span>22 RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Whiskey Jameson</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: 231 kcal, alcool 40g, carbohidrați 0g, zaharuri 0g, fibre 0g, proteine 0g</p>
+    </div>
+    <span>22 RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Vechea Romana</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: 231 kcal, alcool 40g, carbohidrați 0g, zaharuri 0g, fibre 0g, proteine 0g</p>
+    </div>
+    <span>22 RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Vodca Voronskaya</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: 231 kcal, alcool 40g, carbohidrați 0g, zaharuri 0g, fibre 0g, proteine 0g</p>
+    </div>
+    <span>18 RON</span>
+    </div>
+
+
+
+       <div class="menu-category">
+      <h3>🍺 Bere fără alcool</h3>
+        	<div class="menu-item">
+    <div>
+      <strong>Birra Moretti 330ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 120-123 kcal, zaharuri 0g, carbohidrați ~11g, grăsimi 0g, proteine ~1.4g, sodiu 0g, alcool 4.6%
+    </div>
+    <span>10 RON</span>
+    </div>
+      
+     	<div class="menu-item">
+    <div>
+      <strong>Ciuc Radler</strong>
+      <p class="descriere">(zmeură, lămâie)</p>
+      <p class="nutritie">Informații nutriționale: valoare energetică 155 kcal, zaharuri 37.5g, carbohidrați 40g, grăsimi 0g, proteine 0g, sodiu 0.125mg, cafeină 80mg, vitamine:B3,B5,B6,B12
+    </div>
+    <span>10 RON</span>
+    </div>
+    </div>
+ 
+       <div class="menu-category">
+      <h3>🍻 Bere la draught</h3>
+       	<div class="menu-item">
+    <div>
+      <strong>Ciuc 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~168 kcal, zaharuri 0g, carbohidrați ~12g, grăsimi 0g, proteine ~1.6g, sodiu 0g, alcool 5%
+    </div>
+    <span>8 RON</span>
+    </div>
+     	<div class="menu-item">
+    <div>
+      <strong>Neumarkt 400ml</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: valoare energetică ~160 kcal, zaharuri 0g, carbohidrați ~9.6g, grăsimi 0g, proteine 0g, sodiu 0g, alcool 5.2%
+    </div>
+    <span>8 RON</span>
+    </div>
+	<div class="menu-item">
+    <div>
+      <strong>Halba boierului 1l</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: ??valoare energetică ~168 kcal, zaharuri 0g, carbohidrați ~12g, grăsimi 0g, proteine ~1.6g, sodiu 0g, alcool 5%
+    </div>
+    <span>18 RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Dispencer bere 2.5l</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: ??valoare energetică ~168 kcal, zaharuri 0g, carbohidrați ~12g, grăsimi 0g, proteine ~1.6g, sodiu 0g, alcool 5%
+    </div>
+    <span>45? RON</span>
+    </div>
+
+    </div>
+ 
+ 
+       <div class="menu-category">
+      <h3>☕︎ Băuturi calde</h3>
+      
+	<div class="menu-item">
+    <div>
+      <strong>Espresso </strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: Cafea măcinată fin: 8-9g, apă extrasă: 25-30ml
+    </div>
+    <span>x RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Espresso dublu</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații nutriționale: Cafea măcinată fin: 16-18g, apă extrasă: 50-60ml
+    </div>
+    <span>x RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Cappuccino</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații: Espresso simplu: 30ml, lapte rece(pentru spumat): 120ml, spumă finală în ceașcă:aproximativ 150-160ml
+    </div>
+    <span>x RON</span>
+    </div>
+
+	<div class="menu-item">
+    <div>
+      <strong>Caffe Latte</strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații: Espresso simplu(sau dublu): 30-60ml, lapte rece(pentru spumat): 180-220ml, volum final: 240-300ml(în funcție de cană) 
+    </div>
+    <span>x RON</span>
+    </div>
+
+     	<div class="menu-item">
+    <div>
+      <strong>Flat White </strong>
+      <p class="descriere"></p>
+      <p class="nutritie">Informații: Espresso dublu: 60ml, lapte rece(pentru spumat): 120-140 ml, volum final: 180-200ml
+    </div>
+    <span>x RON</span>
+    </div>
+      
+    </div>
+ 
+    <div class="menu-category">
+      <h3>🍰 Deserturi</h3>
+
+     <div class="menu-item">
+    <div>
+      <strong>Papanași 350g(700 kcal)</strong>
+      <p class="descriere">(2 bucăți de papanași 200g,smântână 100g,dulceață afine 50g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 40g, fibre 3g, carbohidrați 90g din care zaharuri 25g, proteine 30g, sare 1g</p>
+    </div>
+    <span>25 RON</span>
+    </div>
+
+     <div class="menu-item">
+    <div>
+      <strong>Lava Cake 180g(745 kcal)</strong>
+      <p class="descriere">(1 Lava Cake 100g,o cupă de înghețată 80g)</p>
+      <p class="nutritie">Informații nutriționale: grăsimi 45g, fibre 2g, carbohidrați 70g din care zaharuri 48g, proteine 9g</p>
+    </div>
+    <span>????? RON</span>
+    </div>
+    </div>
+ 
+    <a href="tel:+40753914209" class="btn blue">
+        📞 Comandă prin telefon
+    </a>
+    <a href="https://glovoapp.com/ro/en/suceava/ta5ty-pizza-scv/" class="btn yellow">
+        📍 Comandă prin Glovo
+    </a>
+   </a>
+   <a href="https://food.bolt.eu/en-US/1062/p/140487-ta5ty-pizza?" class="btn green">
+        Comandă prin Bolt Food 🍽️
+     
+    </a>
+
+    </a>
+  </section>
+ 
+  <footer>
+    <img src="logo-removebg-preview.png" alt="Ta5ty logo">
+    <nav style="display: flex; flex-direction: row; gap: 10px;">
+      <div style="display: flex; flex-direction: row; justify-content: end; align-items: end;">
+        <a href="mailto:romelus1991@gmail.com" class="btn small">✉️</a>
+        <a href="tel:+40753914209" class="btn small">📞</a>
+      </div>
+    </nav>
+  </footer>
+ 
+</body>
+</html>
